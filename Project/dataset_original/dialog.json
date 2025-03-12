@@ -1,0 +1,114 @@
+{
+    "intents": [
+      {
+        "intent": "Salam",
+        "text": [
+          "Hai",
+          "Halo",
+          "Selamat pagi",
+          "Selamat siang",
+          "Selamat malam"
+        ],
+        "responses": [
+          "Hai, bagaimana saya bisa membantu Anda hari ini?",
+          "Halo! Apakah Anda membutuhkan bantuan atau informasi?"
+        ]
+      },
+      {
+        "intent": "Laporan_Kekerasan",
+        "text": [
+          "Saya sering dipukul suami saya, saya takut.",
+          "Suami saya sering membentak saya dan membuat saya takut.",
+          "Saya mengalami kekerasan dalam rumah tangga."
+        ],
+        "responses": [
+          "Saya mengerti situasi Anda. Jika dalam bahaya, segera hubungi 119 atau cari tempat aman.",
+          "Kekerasan dalam rumah tangga adalah serius. Anda bisa mendapatkan bantuan dengan menghubungi Komnas Perempuan atau LSM terdekat."
+        ]
+      },
+      {
+        "intent": "Dukungan_Psikologis",
+        "text": [
+          "Saya merasa sangat tertekan dengan situasi saya.",
+          "Saya tidak tahu harus bagaimana, saya stres.",
+          "Saya butuh seseorang untuk mendengar saya."
+        ],
+        "responses": [
+          "Saya di sini untuk mendengarkan. Anda tidak sendiri. Jika Anda ingin berbicara dengan konselor, saya bisa membantu.",
+          "Tekanan emosional adalah hal yang serius. Saya bisa membantu Anda mencari layanan konseling yang aman dan terpercaya."
+        ]
+      },
+      {
+        "intent": "Bantuan_Hukum",
+        "text": [
+          "Bagaimana cara melaporkan KDRT?",
+          "Apakah saya bisa mendapatkan bantuan hukum gratis?",
+          "Apa hukum tentang kekerasan dalam rumah tangga?"
+        ],
+        "responses": [
+          "Anda bisa melapor ke polisi atau menghubungi Komnas Perempuan di 119 untuk bantuan hukum.",
+          "Anda dilindungi oleh UU No. 23 Tahun 2004 tentang Penghapusan Kekerasan dalam Rumah Tangga. Saya bisa membantu mencari bantuan hukum terdekat."
+        ]
+      },
+      {
+        "intent": "Keadaan_Darurat",
+        "text": [
+          "Suami saya mengancam saya dengan pisau, saya takut.",
+          "Saya sedang dikunci di rumah oleh suami saya.",
+          "Saya dalam bahaya, saya tidak tahu harus bagaimana."
+        ],
+        "responses": [
+          "Ini situasi darurat! Jika memungkinkan, segera keluar ke tempat aman dan hubungi 119 atau polisi terdekat.",
+          "Jika Anda dalam bahaya langsung, segera hubungi pihak berwenang atau cari tempat perlindungan terdekat."
+        ]
+      },
+      {
+        "intent": "Informasi_Umum",
+        "text": [
+          "Apa yang dimaksud dengan KDRT?",
+          "Apa saja bentuk-bentuk kekerasan dalam rumah tangga?",
+          "Bagaimana cara mencegah KDRT?"
+        ],
+        "responses": [
+          "KDRT adalah Kekerasan Dalam Rumah Tangga, yang mencakup kekerasan fisik, emosional, ekonomi, dan seksual terhadap pasangan atau anggota keluarga.",
+          "Kekerasan dalam rumah tangga bisa berupa kekerasan fisik, verbal, ekonomi, dan seksual. Jika Anda atau seseorang yang Anda kenal mengalaminya, segera cari bantuan."
+        ]
+      },
+      {
+        "intent": "Abusive_Language",
+        "text": [
+          "Dasar cewek nggak guna!",
+          "Kamu bodoh sekali!",
+          "Chatbot jelek!"
+        ],
+        "responses": [
+          "Saya di sini untuk membantu. Mohon gunakan bahasa yang sopan.",
+          "Saya tetap di sini untuk mendukung Anda, tetapi mohon gunakan bahasa yang sopan."
+        ]
+      },
+      {
+        "intent": "Fallback",
+        "text": [
+          "Aku bingung harus bagaimana, tolong bantu aku.",
+          "Saya butuh bantuan tapi tidak tahu harus bicara apa.",
+          "Tolong bantu saya."
+        ],
+        "responses": [
+          "Saya ingin membantu. Bisa jelaskan lebih lanjut situasi Anda?",
+          "Tidak apa-apa, ambil waktu Anda. Saya di sini untuk mendengarkan dan membantu Anda."
+        ]
+      },
+      {
+        "intent": "Pelaporan_Kasus",
+        "text": [
+          "Saya ingin melaporkan KDRT yang dialami tetangga saya.",
+          "Bagaimana cara melaporkan kekerasan yang saya lihat di lingkungan saya?"
+        ],
+        "responses": [
+          "Anda bisa melaporkan kasus KDRT dengan menghubungi polisi atau lembaga perlindungan perempuan dan anak terdekat.",
+          "Untuk melaporkan kasus KDRT, Anda bisa menghubungi 119 atau Komnas Perempuan untuk mendapatkan panduan lebih lanjut."
+        ]
+      }
+    ]
+  }
+  
