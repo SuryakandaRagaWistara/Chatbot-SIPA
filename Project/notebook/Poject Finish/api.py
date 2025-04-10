@@ -23,12 +23,6 @@ intent_labels = {
 }
 reverse_labels = {v: k for k, v in intent_labels.items()}
 
-# ========== Fallback Context (Opsional) ==========
-fallback_contexts = {
-    "depresi": "Jika kamu sedang merasa depresi, cobalah untuk bicara dengan orang terpercaya, beristirahat cukup, dan pertimbangkan untuk konsultasi ke psikolog.",
-    "kdrt": "Kekerasan dalam rumah tangga adalah tindakan pidana. Segera hubungi lembaga perlindungan seperti Komnas Perempuan atau pihak berwajib."
-}
-
 # ========== FastAPI App ==========
 app = FastAPI()
 
@@ -52,7 +46,7 @@ def search_context(query):
         params = {
             "engine": "google",
             "q": query,
-            "api_key": "d8184b379a4a7abdaee377686c40c26ea1a9841fa9436735f9a11064c0ccf3eb",
+            "api_key": "YOUR KEY",
             "num": 5,
             "hl": "id"
         }
